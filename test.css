@@ -1,0 +1,124 @@
+#heading {
+    background-image: url(pasta-heading.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 350px;
+    min-width: 900px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #heading nav {
+    background-color: azure;
+    opacity: 60%;
+    width: 100%;
+    height: 50px;
+    justify-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+  }
+  
+  #heading nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 5px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  #heading nav a:hover {
+    color: grey;
+  }
+  
+  #heading h1 {
+    color: #f8c471;
+    font-size: 7.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    align-self: center;
+    font-family: "Sacramento", cursive;
+  }
+  
+  .introduction {
+    position: relative;
+  }
+  
+  .introduction img {
+    max-width: 400px;
+    border-radius: 10%;
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+  
+  .introduction h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #2471a3;
+  }
+  .clr {
+    clear: both;
+  }
+  
+  .introduction p {
+    font-size: 1.2em;
+    min-height: 100px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .about {
+    background-color: #ededed;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .about img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    padding: 20px;
+  }
+  
+  .about p {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1em;
+    text-align: justify;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .about button {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border-radius: 10px;
+    background-color: #ededed;
+    color: black;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .about button:hover {
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sharing {
+    display: flex;
+  
